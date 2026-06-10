@@ -387,6 +387,286 @@ body{
 
 .screen{ display:none; }
 .screen.active{ display:block; opacity:1; }
+/* ===== styles.css ===== */
+/* ========================================================================
+   餐饮 · 零售品牌体检  —  视觉系统
+   橙色品牌 (#f4511e) · 白底 · 浅橙卡片 · 移动端优先
+   ===================================================================== */
+
+:root{
+  --orange:#f4511e;
+  --orange-d:#d63f12;
+  --orange-2:#ff6b3d;
+  --bg:#ffffff;
+  --card:#fff5f2;
+  --card-line:#f3e8e4;
+  --ink:#1a1a1a;
+  --ink-2:#374151;
+  --sub:#6b7280;
+  --muted:#9ca3af;
+  --faint:#d1c4be;
+  --ghost:#f0e8e4;
+
+  --green:#1f9d63;
+  --green-bg:#e8f6ee;
+  --amber:#e0900c;
+  --amber-bg:#fbf0d8;
+  --red:#e0301a;
+  --red-bg:#fdeae6;
+
+  --col:440px;
+  --pad:24px;
+
+  --display:"Space Grotesk", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --cn:-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+       "Noto Sans SC", "Hiragino Sans GB", sans-serif;
+}
+
+*{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+
+html,body{ margin:0; padding:0; }
+
+body{
+  font-family:var(--cn);
+  color:var(--ink);
+  /* warm backdrop so the mobile column reads as a device on desktop */
+  background:
+    radial-gradient(120% 80% at 50% -10%, #fff 0%, #fbf3ef 55%, #f3e6df 100%);
+  min-height:100vh;
+  min-height:100dvh;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* ---- the phone-width column ------------------------------------------ */
+#app{
+  width:100%;
+  max-width:var(--col);
+  margin:0 auto;
+  min-height:100vh;
+  min-height:100dvh;
+  background:var(--bg);
+  position:relative;
+  overflow:hidden;
+  box-shadow:0 30px 80px -30px rgba(120,40,10,.28);
+}
+@media (min-width:520px){
+  body{ padding:28px 0; }
+  #app{ min-height:calc(100vh - 56px); border-radius:28px; }
+}
+
+.screen{ display:none; }
+.screen.active{ display:block; opacity:1; }
+/* ===== styles.css ===== */
+/* ========================================================================
+   餐饮 · 零售品牌体检  —  视觉系统
+   橙色品牌 (#f4511e) · 白底 · 浅橙卡片 · 移动端优先
+   ===================================================================== */
+
+:root{
+  --orange:#f4511e;
+  --orange-d:#d63f12;
+  --orange-2:#ff6b3d;
+  --bg:#ffffff;
+  --card:#fff5f2;
+  --card-line:#f3e8e4;
+  --ink:#1a1a1a;
+  --ink-2:#374151;
+  --sub:#6b7280;
+  --muted:#9ca3af;
+  --faint:#d1c4be;
+  --ghost:#f0e8e4;
+
+  --green:#1f9d63;
+  --green-bg:#e8f6ee;
+  --amber:#e0900c;
+  --amber-bg:#fbf0d8;
+  --red:#e0301a;
+  --red-bg:#fdeae6;
+
+  --col:440px;
+  --pad:24px;
+
+  --display:"Space Grotesk", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --cn:-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+       "Noto Sans SC", "Hiragino Sans GB", sans-serif;
+}
+
+*{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+
+html,body{ margin:0; padding:0; }
+
+body{
+  font-family:var(--cn);
+  color:var(--ink);
+  /* warm backdrop so the mobile column reads as a device on desktop */
+  background:
+    radial-gradient(120% 80% at 50% -10%, #fff 0%, #fbf3ef 55%, #f3e6df 100%);
+  min-height:100vh;
+  min-height:100dvh;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* ---- the phone-width column ------------------------------------------ */
+#app{
+  width:100%;
+  max-width:var(--col);
+  margin:0 auto;
+  min-height:100vh;
+  min-height:100dvh;
+  background:var(--bg);
+  position:relative;
+  overflow:hidden;
+  box-shadow:0 30px 80px -30px rgba(120,40,10,.28);
+}
+@media (min-width:520px){
+  body{ padding:28px 0; }
+  #app{ min-height:calc(100vh - 56px); border-radius:28px; }
+}
+
+.screen{ display:none; }
+.screen.active{ display:block; opacity:1; }
+/* ===== styles.css ===== */
+/* ========================================================================
+   餐饮 · 零售品牌体检  —  视觉系统
+   橙色品牌 (#f4511e) · 白底 · 浅橙卡片 · 移动端优先
+   ===================================================================== */
+
+:root{
+  --orange:#f4511e;
+  --orange-d:#d63f12;
+  --orange-2:#ff6b3d;
+  --bg:#ffffff;
+  --card:#fff5f2;
+  --card-line:#f3e8e4;
+  --ink:#1a1a1a;
+  --ink-2:#374151;
+  --sub:#6b7280;
+  --muted:#9ca3af;
+  --faint:#d1c4be;
+  --ghost:#f0e8e4;
+
+  --green:#1f9d63;
+  --green-bg:#e8f6ee;
+  --amber:#e0900c;
+  --amber-bg:#fbf0d8;
+  --red:#e0301a;
+  --red-bg:#fdeae6;
+
+  --col:440px;
+  --pad:24px;
+
+  --display:"Space Grotesk", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --cn:-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+       "Noto Sans SC", "Hiragino Sans GB", sans-serif;
+}
+
+*{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+
+html,body{ margin:0; padding:0; }
+
+body{
+  font-family:var(--cn);
+  color:var(--ink);
+  /* warm backdrop so the mobile column reads as a device on desktop */
+  background:
+    radial-gradient(120% 80% at 50% -10%, #fff 0%, #fbf3ef 55%, #f3e6df 100%);
+  min-height:100vh;
+  min-height:100dvh;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* ---- the phone-width column ------------------------------------------ */
+#app{
+  width:100%;
+  max-width:var(--col);
+  margin:0 auto;
+  min-height:100vh;
+  min-height:100dvh;
+  background:var(--bg);
+  position:relative;
+  overflow:hidden;
+  box-shadow:0 30px 80px -30px rgba(120,40,10,.28);
+}
+@media (min-width:520px){
+  body{ padding:28px 0; }
+  #app{ min-height:calc(100vh - 56px); border-radius:28px; }
+}
+
+.screen{ display:none; }
+.screen.active{ display:block; opacity:1; }
+/* ===== styles.css ===== */
+/* ========================================================================
+   餐饮 · 零售品牌体检  —  视觉系统
+   橙色品牌 (#f4511e) · 白底 · 浅橙卡片 · 移动端优先
+   ===================================================================== */
+
+:root{
+  --orange:#f4511e;
+  --orange-d:#d63f12;
+  --orange-2:#ff6b3d;
+  --bg:#ffffff;
+  --card:#fff5f2;
+  --card-line:#f3e8e4;
+  --ink:#1a1a1a;
+  --ink-2:#374151;
+  --sub:#6b7280;
+  --muted:#9ca3af;
+  --faint:#d1c4be;
+  --ghost:#f0e8e4;
+
+  --green:#1f9d63;
+  --green-bg:#e8f6ee;
+  --amber:#e0900c;
+  --amber-bg:#fbf0d8;
+  --red:#e0301a;
+  --red-bg:#fdeae6;
+
+  --col:440px;
+  --pad:24px;
+
+  --display:"Space Grotesk", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --cn:-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+       "Noto Sans SC", "Hiragino Sans GB", sans-serif;
+}
+
+*{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+
+html,body{ margin:0; padding:0; }
+
+body{
+  font-family:var(--cn);
+  color:var(--ink);
+  /* warm backdrop so the mobile column reads as a device on desktop */
+  background:
+    radial-gradient(120% 80% at 50% -10%, #fff 0%, #fbf3ef 55%, #f3e6df 100%);
+  min-height:100vh;
+  min-height:100dvh;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* ---- the phone-width column ------------------------------------------ */
+#app{
+  width:100%;
+  max-width:var(--col);
+  margin:0 auto;
+  min-height:100vh;
+  min-height:100dvh;
+  background:var(--bg);
+  position:relative;
+  overflow:hidden;
+  box-shadow:0 30px 80px -30px rgba(120,40,10,.28);
+}
+@media (min-width:520px){
+  body{ padding:28px 0; }
+  #app{ min-height:calc(100vh - 56px); border-radius:28px; }
+}
+
+.screen{ display:none; }
+.screen.active{ display:block; opacity:1; }
 
 /* top accent bar like the source cards */
 .accent-bar{ height:6px; background:var(--orange); width:100%; }
@@ -434,8 +714,9 @@ body{
    INTRO
    ===================================================================== */
 #screen-intro .intro-body{
-  padding:46px var(--pad) 30px;
+  padding:30px var(--pad) 24px;
   display:flex; flex-direction:column; min-height:calc(100vh - 6px);
+  min-height:calc(100dvh - 6px);
 }
 @media (min-width:520px){ #screen-intro .intro-body{ min-height:auto; } }
 
@@ -447,16 +728,16 @@ body{
 #screen-intro .intro-head{ position:relative; z-index:1; }
 
 .intro-title{
-  font-size:42px; font-weight:800; line-height:1.16; letter-spacing:-.01em;
-  margin:30px 0 0; color:var(--ink);
+  font-size:36px; font-weight:800; line-height:1.18; letter-spacing:-.01em;
+  margin:22px 0 0; color:var(--ink);
 }
 .intro-title .hl{ color:var(--orange); }
 .intro-sub{
-  margin:20px 0 0; font-size:16px; line-height:1.7; color:var(--sub);
+  margin:14px 0 0; font-size:15px; line-height:1.66; color:var(--sub);
   max-width:34ch; text-wrap:pretty;
 }
 
-.intro-rule{ height:1px; background:var(--card-line); margin:28px 0; }
+.intro-rule{ height:1px; background:var(--card-line); margin:18px 0; }
 
 .intro-chips{ display:flex; gap:10px; flex-wrap:wrap; }
 .chip{
@@ -467,7 +748,7 @@ body{
 }
 .chip .dot{ width:7px; height:7px; border-radius:50%; background:var(--orange); }
 
-.intro-dims{ margin-top:26px; }
+.intro-dims{ margin-top:16px; }
 .intro-dims-label{ font-size:12px; color:var(--muted); letter-spacing:.1em; margin-bottom:12px; }
 .dim-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:8px; }
 .dim-pill{
@@ -479,13 +760,13 @@ body{
   color:var(--orange); width:22px; flex:none;
 }
 
-.intro-foot{ margin-top:auto; padding-top:30px; }
+.intro-foot{ margin-top:auto; padding-top:18px; padding-bottom:env(safe-area-inset-bottom); }
 .intro-cta-wrap{ display:flex; flex-direction:column; gap:14px; }
 #btn-start{ width:100%; }
 .brand-slot{
   text-align:center; font-size:12px; color:var(--muted); margin-top:6px;
 }
-.brand-slot b{ color:var(--faint); font-weight:700; }
+.brand-slot b{ color:var(--sub); font-weight:700; }
 
 /* =======================================================================
    QUIZ
@@ -544,6 +825,7 @@ body{
 #screen-computing{ }
 .computing-wrap{
   min-height:calc(100vh - 6px); display:flex; flex-direction:column;
+  min-height:calc(100dvh - 6px);
   align-items:center; justify-content:center; gap:30px; padding:40px;
 }
 @media (min-width:520px){ .computing-wrap{ min-height:480px; } }
@@ -556,7 +838,7 @@ body{
 /* =======================================================================
    RESULT
    ===================================================================== */
-#screen-result{ padding-bottom:36px; }
+#screen-result{ padding-bottom:calc(118px + env(safe-area-inset-bottom)); }
 
 /* hero */
 .r-hero{ position:relative; color:#fff; padding:38px var(--pad) 30px; overflow:hidden; }
@@ -674,17 +956,18 @@ body{
 .btn-copy:hover{ background:rgba(255,255,255,.24); }
 .btn-copy:active{ transform:scale(.96); }
 
-/* footer / actions */
-.r-actions{ padding:30px var(--pad) 10px; display:flex; flex-direction:column; gap:12px; }
-.r-actions .btn{ width:100%; }
+/* footer / actions — fixed bottom bar */
+.r-actions{ position:fixed; bottom:0; left:50%; transform:translateX(-50%); width:100%; max-width:var(--col); display:flex; flex-direction:row; gap:10px; padding:12px var(--pad) calc(12px + env(safe-area-inset-bottom)); background:rgba(255,255,255,.94); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); border-top:1px solid var(--card-line); z-index:20; }
+.r-actions #btn-save{ flex:1; font-size:16px; padding:14px 18px; }
+.r-actions #btn-restart{ flex:none; font-size:14px; padding:14px 16px; }
 .r-foot{ text-align:center; padding:18px var(--pad) 0; }
 .r-foot .bd-brand{ font-size:12px; color:var(--muted); }
-.r-foot .bd-brand b{ color:var(--faint); font-weight:700; }
+.r-foot .bd-brand b{ color:var(--sub); font-weight:700; }
 .r-foot .disc{ font-size:11px; color:var(--faint); margin-top:10px; line-height:1.6; max-width:32ch; margin-left:auto; margin-right:auto; }
 
 /* toast */
 .toast{
-  position:fixed; left:50%; bottom:34px; transform:translateX(-50%) translateY(20px);
+  position:fixed; left:50%; bottom:calc(96px + env(safe-area-inset-bottom)); transform:translateX(-50%) translateY(20px);
   background:var(--ink); color:#fff; font-size:13px; padding:12px 20px; border-radius:999px;
   opacity:0; pointer-events:none; transition:all .3s ease; z-index:50; box-shadow:0 10px 30px -8px rgba(0,0,0,.4);
 }
@@ -768,6 +1051,7 @@ body{
 #screen-chapter .accent-bar{ height:6px; }
 .ch-wrap{
   min-height:calc(100vh - 6px); display:flex; flex-direction:column;
+  min-height:calc(100dvh - 6px);
   align-items:center; justify-content:center; padding:40px var(--pad); text-align:center;
 }
 @media (min-width:520px){ .ch-wrap{ min-height:480px; } }
@@ -855,6 +1139,60 @@ body{
   height:1px; background:var(--card-line); margin:24px var(--pad) 0;
 }
 
+/* =======================================================================
+   v4 新增：稀有度跟体 · 雷达收窄 · 保存蒙层 · 截图模式 · 转诊单 ·
+   段位选择 · 规模注解 · 引流占位
+   ===================================================================== */
+
+/* 稀有度徽章免责跟体 */
+.r-rarity i{ font-style:normal; font-size:10px; font-weight:600; opacity:.75; margin-left:5px; }
+
+/* 雷达卡收高度 */
+.r-radar-mini .radar-card{ max-width:300px; margin:0 auto; }
+
+/* 保存长图蒙层 */
+#save-overlay{ position:fixed; inset:0; z-index:99; background:rgba(0,0,0,.84); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:24px; overflow:auto; }
+#save-overlay img{ max-width:100%; max-height:70vh; object-fit:contain; border-radius:12px; -webkit-touch-callout:default; box-shadow:0 20px 60px rgba(0,0,0,.5); }
+#save-overlay .so-tip{ color:#fff; font-size:15px; font-weight:700; margin-top:16px; text-align:center; }
+#save-overlay .so-close{ margin-top:14px; background:rgba(255,255,255,.16); color:#fff; border:1px solid rgba(255,255,255,.3); border-radius:999px; padding:10px 26px; font-size:14px; font-weight:700; font-family:var(--cn); cursor:pointer; }
+
+/* 截图模式 */
+.capture-foot{ display:none; align-items:center; gap:14px; margin:18px var(--pad) 0; padding:14px 16px; background:var(--card); border-radius:14px; }
+.capture-foot .cf-left{ flex:1; min-width:0; }
+.capture-foot .cf-brand{ font-size:13px; color:var(--ink-2); font-weight:600; }
+.capture-foot .cf-brand b{ color:var(--ink); font-weight:800; }
+.capture-foot .cf-url{ font-size:12px; color:var(--sub); margin-top:5px; }
+.capture-foot .cf-qr{ width:86px; height:86px; flex:none; border-radius:8px; background:#fff; padding:4px; box-sizing:border-box; }
+#app.capturing .capture-foot{ display:flex; }
+#app.capturing .btn-copy{ display:none; }
+#share-card{ padding-bottom:6px; }
+
+/* 转诊单 */
+.r-referral{ margin:22px var(--pad) 0; padding:16px; background:var(--ink); border-radius:16px; display:flex; align-items:center; gap:14px; }
+.r-referral .rr-text{ flex:1; min-width:0; }
+.r-referral .rr-diag{ font-size:12px; color:rgba(255,255,255,.6); margin-bottom:6px; }
+.r-referral .rr-diag b{ color:#fff; font-weight:800; }
+.r-referral .rr-cta{ font-size:15px; font-weight:800; color:#fff; line-height:1.45; }
+.r-referral .rr-qr{ width:108px; height:108px; flex:none; border-radius:8px; background:#fff; padding:5px; box-sizing:border-box; }
+
+/* 段位选择与规模注解 */
+.intro-stage{ margin-top:14px; }
+.intro-stage-label{ font-size:12px; color:var(--muted); margin-bottom:9px; }
+.stage-chips{ display:flex; gap:8px; flex-wrap:wrap; }
+.schip{ font-size:13px; font-weight:700; padding:9px 15px; border-radius:999px; border:1.5px solid var(--card-line); background:#fff; color:var(--ink-2); cursor:pointer; font-family:var(--cn); transition:all .15s ease; }
+.schip.selected{ border-color:var(--orange); color:var(--orange); background:var(--card); }
+.r-stage{ margin:24px var(--pad) 0; padding:16px 18px; border:1.5px solid var(--orange); border-radius:16px; background:#fff; }
+.r-stage .lbl{ font-size:12px; color:var(--orange); font-weight:800; letter-spacing:.04em; margin-bottom:8px; }
+.r-stage .t{ font-size:15px; font-weight:700; color:var(--ink); line-height:1.62; }
+
+/* 引流占位区 */
+.r-contact{ margin:18px var(--pad) 0; padding:18px; background:var(--card); border-radius:16px; text-align:center; }
+.r-contact .rc-t{ font-size:15px; font-weight:800; color:var(--ink); }
+.r-contact .rc-line{ font-size:14px; color:var(--ink-2); margin-top:8px; }
+.r-contact .rc-line b{ color:var(--orange); }
+.r-contact .rc-qr{ width:120px; height:120px; margin:12px auto 0; display:block; border-radius:8px; }
+.r-contact .btn-copy-share{ margin-top:12px; }
+
 </style>
 </head>
 <body>
@@ -871,13 +1209,22 @@ body{
         <div class="eyebrow">BRAND DUE DILIGENCE</div>
         <div class="eyebrow-cn">餐饮 · 零售品牌体检</div>
         <h1 class="intro-title">你的品牌，到底是<br><span class="hl">顺风局</span>，还是 <span class="hl">ICU</span>？</h1>
-        <p class="intro-sub">24 道题，约 4 分钟，照出连锁品牌最真实的健康度。18 个维度 + 5 大肌肉群交叉诊断，给你一种「创始人画像」+ 一份这一型专属的破局清单——专为创始人 · 操盘手设计，别听话术，看真相。</p>
+        <p class="intro-sub">24 道题照出连锁品牌真实的健康度。测完给你一张「创始人画像」，和一份这一型专属的破局清单——专为创始人 · 操盘手设计，别听话术，看真相。</p>
       </div>
       <div class="intro-rule"></div>
       <div class="intro-chips">
         <span class="chip"><span class="dot"></span>18 个维度</span>
         <span class="chip"><span class="dot"></span>约 4 分钟</span>
         <span class="chip"><span class="dot"></span>匿名 · 不留痕</span>
+      </div>
+      <div class="intro-stage">
+        <div class="intro-stage-label">你目前的门店数（选了，诊断按你的规模说话；跳过也能测）</div>
+        <div class="stage-chips" id="stage-chips">
+          <button class="schip" data-stage="s1">1–5 家</button>
+          <button class="schip" data-stage="s2">6–30 家</button>
+          <button class="schip" data-stage="s3">31–100 家</button>
+          <button class="schip" data-stage="s4">100+ 家</button>
+        </div>
       </div>
       <div class="intro-dims">
         <div class="intro-dims-label">体检覆盖的维度</div>
@@ -944,6 +1291,7 @@ body{
   <section class="screen" id="screen-result" data-screen-label="诊断结果">
 
     <!-- LAYER 1: SHARE CARD (1 screen, screenshot-friendly) -->
+    <div id="share-card">
     <div class="r-hero" id="r-hero">
       <div class="r-hero-eyebrow">YOUR BRAND ARCHETYPE</div>
       <div class="r-archetype" id="r-arch-name">—</div>
@@ -977,9 +1325,18 @@ body{
     </div>
 
     <div class="r-peer">
-      <div class="r-peer-label">— 送给同行的一句 —</div>
+      <div class="r-peer-label">— 这页该发给谁 —</div>
       <div class="r-peer-line" id="r-peer-line">—</div>
       <button class="btn-copy" id="btn-copy-peer">复制这句毒舌</button>
+    </div>
+
+    <div class="capture-foot" id="capture-foot">
+      <div class="cf-left">
+        <div class="cf-brand">本测试由 <b data-brand-name>超级马甲</b> 出品</div>
+        <div class="cf-url">4 分钟测你自己的 → 长按识别</div>
+      </div>
+      <img class="cf-qr" src="data:image/png;base64,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" alt="测试二维码">
+    </div>
     </div>
 
     <div class="r-share-cta">
@@ -1006,6 +1363,11 @@ body{
       <div class="r-replay-pick"><span class="rp-tag">你的答案</span><span id="r-replay-pick">—</span></div>
     </div>
 
+    <div class="r-stage" id="r-stage" style="display:none">
+      <div class="lbl" id="r-stage-lbl">— 按你的规模 · 说句实话 —</div>
+      <div class="t" id="r-stage-note">—</div>
+    </div>
+
     <div class="r-killer">
       <div class="lbl">— 现在就去问自己一句 —</div>
       <div class="q" id="r-killer-q">—</div>
@@ -1025,6 +1387,21 @@ body{
       </div>
     </div>
 
+    <div class="r-referral" id="r-referral">
+      <div class="rr-text">
+        <div class="rr-diag">确诊：「<b data-arch-inline></b>」型老板</div>
+        <div class="rr-cta" id="rr-cta">建议同桌就诊——长按识别，看看你是哪型</div>
+      </div>
+      <img class="rr-qr" alt="长按识别二维码" src="data:image/png;base64,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">
+    </div>
+
+    <div class="r-contact" id="r-contact" style="display:none">
+      <div class="rc-t">想把这 18 个维度逐条过一遍？</div>
+      <div class="rc-line">加微信 <b id="rc-wechat"></b>，备注「体检」</div>
+      <img id="rc-qr" class="rc-qr" alt="微信二维码" style="display:none">
+      <button class="btn-copy-share" id="btn-copy-wechat">复制微信号</button>
+    </div>
+
     <div class="r-foot">
       <div class="bd-brand">本测试由 <b data-brand-name>［ 品牌占位 ］</b> 出品</div>
       <div class="disc">稀有度为示意数据，图个乐。本报告基于自评，仅供战略自检参考，不构成投资或经营建议。</div>
@@ -1039,7 +1416,7 @@ body{
 
 
 <script>
-const TWEAKS = { accent:"#f4511e", heroColor:"health", brandName:"超级马甲" };
+const TWEAKS = { accent:"#f4511e", heroColor:"health", brandName:"超级马甲", shareUrl:"https://maojiebc.github.io/canyin-checkup/", contactWechat:"", contactQr:"" };
 document.addEventListener("DOMContentLoaded", function(){
   document.querySelectorAll("[data-brand-name]").forEach(function(el){ el.textContent = TWEAKS.brandName; });
 });
@@ -1082,9 +1459,9 @@ const DIMENSIONS = [
   { id:"02", key:"org",      name:"组织·权力结构",   short:"组织",  en:"ORGANIZATION & POWER", cluster:"人",   weight:1.0, radar:true,  group:"core",
     what:"测一个动作从你拍板到门店落地要穿过几层、衰减多少——链条越长，你一年能试错的次数越少。" },
   { id:"03", key:"team",     name:"运营团队",         short:"团队",  en:"OPERATIONS TEAM",    cluster:"人",   weight:1.0, radar:true,  group:"core",
-    what:"测离了你公司转不转——有没有能接住你意图的'二传手'，决定你会不会变成单点瓶颈。" },
+    what:"测离了你公司转不转——有没有能接住你意图的「二传手」，决定你会不会变成单点瓶颈。" },
   { id:"04", key:"data",     name:"数据与BI能力",     short:"数据",  en:"DATA & BI",          cluster:"大脑", weight:1.2, radar:true,  group:"core",
-    what:"测你的'数据神经系统'发育到哪步——拿不到数、口径打架，再好的策略也是盲开车。" },
+    what:"测你的「数据神经系统」发育到哪步——拿不到数、口径打架，再好的策略也是盲开车。" },
   { id:"05", key:"tech",     name:"技术系统选型",     short:"技术",  en:"TECH STACK",         cluster:"大脑", weight:1.0, radar:true,  group:"core",
     what:"测 POS/会员/支付/小程序通不通、数据实不实时——链路断在哪，你能做的活动就到哪为止。" },
   { id:"06", key:"control",  name:"门店管控模式",     short:"门店",  en:"STORE CONTROL",      cluster:"手脚", weight:1.0, radar:true,  group:"core",
@@ -1098,7 +1475,7 @@ const DIMENSIONS = [
   { id:"A1", key:"finance",  name:"财务健康·增长质量", short:"财务", en:"FINANCIAL HEALTH",   cluster:"钱",   weight:1.3, radar:true,  group:"appendix",
     what:"最照妖的一层——单店模型和增长质量不会撒谎，话术能包装其他维度，包装不了现金流。" },
   { id:"A2", key:"brand",    name:"品牌势能·获客",    short:"品牌",  en:"BRAND MOMENTUM",     cluster:"根基", weight:1.2, radar:true,  group:"appendix",
-    what:"测停投后还有没有人来——势能强是'流量×转化'的乘法，势能弱是一个一个手动拉的加法。" },
+    what:"测停投后还有没有人来——势能强是「流量×转化」的乘法，势能弱是一个一个手动拉的加法。" },
   { id:"B1", key:"capital",  name:"资本结构·对赌",    short:"资本",  en:"CAPITAL STRUCTURE",  cluster:"钱",   weight:0.8, radar:false, group:"bonus",
     what:"测扩张的钱从哪来、头上有没有对赌——资本结构会悄悄绑架整个组织的优先级。" },
   { id:"B2", key:"retention",name:"一线团队稳定性",   short:"流失",  en:"FRONTLINE RETENTION", cluster:"手脚", weight:0.8, radar:false, group:"bonus",
@@ -1143,7 +1520,7 @@ const CLUSTERS = [
     copy:{
       green:"决策链短、有能接住你意图的人——你不会变成瓶颈。",
       amber:"班子能维持日常，但大事还得你拍——你在慢慢变成单点。",
-      red:"公司就你一个大脑，你一停全停——先长出一个'二传手'再谈别的。" } },
+      red:"公司就你一个大脑，你一停全停——先长出一个「二传手」再谈别的。" } },
 ];
 
 /* 答题分章：按肌肉群分 5 章，章内随机，章间有过渡屏增加呼吸感。 */
@@ -1151,19 +1528,19 @@ const CHAPTERS = [
   { keys:["founder","org","team"],
     title:"先聊聊你这个人", en:"THE BOSS",
     lead:"创始人 / 组织 / 团队——离了你公司还转不转，这几题见真章。",
-    out:"好，你这个人看完了。接下来看看你的大脑——数据和系统够不够用。" },
+    out:"好，你这个人看完了。" },
   { keys:["data","tech","crm"],
     title:"你的大脑", en:"THE BRAIN",
     lead:"数据 / 系统 / 私域——神经系统发育到哪步，决定你能做什么级别的动作。",
-    out:"大脑查完了。下面测手脚——总部的令，真能传到门店吗？" },
+    out:"大脑查完了。" },
   { keys:["control","exec","retention","franchise","experience"],
     title:"手脚利索吗", en:"THE LIMBS",
     lead:"管控 / 执行 / 一线 / 扩张 / 体验闭环——最后一公里通不通，这几题最扎心。",
-    out:"手脚利不利索心里有数了。来看根基——产品和品牌够不够硬。" },
+    out:"手脚利不利索，心里有数了。" },
   { keys:["product","supply","brand","channel"],
     title:"你的根基", en:"FOUNDATION",
     lead:"产品 / 供应链 / 品牌 / 渠道——底盘硬不硬，决定你在放大优势还是放大窟窿。",
-    out:"根基照完了。最后一关，最照妖——谈钱，和加盟商的钱。" },
+    out:"根基照完了。最后一关，最照妖。" },
   { keys:["finance","capital","payback"],
     title:"最后谈钱", en:"THE MONEY",
     lead:"财务 / 资本 / 加盟商回本——单店模型不会撒谎，这是唯一骗不了自己的维度。",
@@ -1451,7 +1828,7 @@ const DIM_COPY = {
   product:{
     green:["产品本身值得复购——这是会员运营这台放大器的发动机。","守住标准化一致性，体验不一致是会员信任最快的杀手。"],
     amber:["差异化不够锋利，复购更多靠位置和习惯，根基不算稳。","用点单数据反哺研发，让产品迭代从「拍脑袋」变成「看数据」。"],
-    red:["停了促销就掉客，说明产品没有复购驱动力。","这是给没有发动机的车装导航——先把产品根基补上，再谈运营。"] },
+    red:["停了促销就掉客，说明产品没有复购驱动力。","先回答「不发券他为什么还来」——这一题没答案，会员体系搭得再精也是空转。"] },
   supply:{
     green:["供应链有控制力且数字化——毛利空间就是你送券补贴的弹药。","把它当谈判筹码：「配合会员活动，拿更好采购价」。"],
     amber:["有一定控制但成本损耗说不准，价格战里抗风险能力一般。","摸清库存周转和损耗率，连「供应商货补」预算都得靠这些数。"],
@@ -1463,7 +1840,7 @@ const DIM_COPY = {
   brand:{
     green:["停投也有自然流量和口碑——你做的是乘法（流量×转化）。","UGC 是买不来的温度计，持续养它，它就是你最稳的护城河。"],
     amber:["品牌有底子但不够强，停投会掉一部分——乘法里夹着加法。","判断势能在涨还是跌，你的建设期必须匹配势能水位。"],
-    red:["60% 以上靠平台导流，一停投增长归零——你在做加法，一个个拉。","产品过气或势能下滑时，运营再好也是给 ICU 病人做皮肤护理。"] },
+    red:["60% 以上靠平台导流，一停投增长归零——你在做加法，一个个拉。","势能在跌就先止跌——水位一直往下走，船上刷漆没用。"] },
   capital:{
     green:["节奏自己说了算，没有对赌绑架——你的预算和打法有自由度。","趁没有外部压力，把单店模型和数字化基建打扎实。"],
     amber:["有融资但条件健康，压力可控——注意别被增长指标牵着走。","看清融资阶段：A 轮追增长、C 轮保利润，你的预算空间完全不同。"],
@@ -1490,7 +1867,7 @@ const DIM_COPY = {
     red:["加盟商回本太慢、甚至你根本没这个数——你赚的可能是加盟商没算明白的钱。","立刻把单店模型和真实回本周期摸清楚：帮加盟商赚钱，才是连锁能长久的唯一逻辑。"] },
   experience:{
     green:["差评有人盯、有闭环——口碑这道护城河你在主动维护，不是听天由命。","把响应时效做成可考核的指标，体验闭环越快，品牌势能漏得越慢。"],
-    amber:["看到会处理，但靠人自觉、快慢看人——闭环存在，只是还没变成机制。","给差评修复定一个时效 SOP（比如 24 小时首响），把『看人』变成『看流程』。"],
+    amber:["看到会处理，但靠人自觉、快慢看人——闭环存在，只是还没变成机制。","给差评修复定一个时效 SOP（比如 24 小时首响），把「看人」变成「看流程」。"],
     red:["差评躺半个月才被发现——前面花钱拉来的新客，正从这个破口悄悄流走。","先建最简体验闭环：一个盯差评的人 + 一条响应时效红线，止住口碑漏水。"] },
 };
 
@@ -1506,7 +1883,7 @@ const ARCHETYPES = {
     plan:["把最强那条维度做成壁垒——别人学得会的不叫壁垒，数据 / 供应链 / 会员资产才是。","趁顺风把组织能力沉淀成 SOP，别让优势只长在你一个人脑子里。","给下一条增长曲线提前下注，标杆最容易死在「用昨天的打法打明天」。"] },
   hexagon:{
     name:"六边形钝角战士", en:"THE ALL-ROUNDER", tier:"green", rarity:11,
-    review:"六边形战士，可惜每条边都是钝角——没短板，也没长板。",
+    review:"底盘是标准六边形，可惜有几条边还是钝角——长板够硬了，钝角还没磨完。",
     desc:"各维度都站得住，没有明显红灯，是个健康的盘子。你已经过了「活下来」那关，现在的问题是：哪条边都行，但没有一条能让对手半夜惊醒。好消息是，六边形底子最适合做「单点捅穿」——你不缺补短板的余粮，缺的只是一个敢 all-in 的决定。",
     risk:"均衡的尽头是平庸——你不会输得很惨，但也赢不到让人记住你。",
     peer:"发给那个「什么都想做」的合伙人，问他敢不敢测。",
@@ -1516,7 +1893,7 @@ const ARCHETYPES = {
     review:"浑身上下挑不出硬伤，也没一处让人记住——你正泡在「还行」的温水里。",
     desc:"大部分维度卡在及格线上下：能转，但每一项都差一口气，没有红灯也没有绿灯。这种状态最危险的不是猝死，是温水——对手用三年慢慢把你拉开，你却一直觉得「还行」。但温水青蛙其实是最容易上岸的一型——你没有红灯要救火，随便挑一条边发力，三个月就能把自己拽出「还行」。",
     risk:"「还行」是最贵的麻醉剂。等你感觉到痛的时候，差距已经追不回来了。",
-    peer:"发给那个总说「我们还行、稳一稳」的合伙人，问他敢不敢测。",
+    peer:"发给那个总说「我们还行、稳一稳」的合伙人，看他这回还稳不稳得住。",
     plan:["选一条维度，三个月内从「还行」做到「行业里有人提」——先打破温水。","砍掉两件「都在做但都没做透」的事，把资源攥成一个拳头。","给团队一个能兴奋起来的具体目标，温水里最先死的是士气。"] },
   wanghong:{
     name:"网红虚胖", en:"THE BALLOON", tier:"amber", rarity:13,
@@ -1550,7 +1927,7 @@ const ARCHETYPES = {
     name:"玄学经营大师", en:"THE ORACLE", tier:"amber", rarity:14,
     review:"决策全靠第六感，后台密码已失传。",
     desc:"系统各是各的、口径对不上、想看个复购率要等三天还对不齐。你不是没有数据，是数据进了黑洞出不来。开会靠感觉开场，会员运营这种最吃数据的活儿，地基还没浇。好在数据基建是连锁里最「有迹可循」的硬仗——它不靠灵感、不靠运气，肯花半年把地基浇上，谁都追得回来。",
-    risk:"红灯阶段你前半年做的是数据基建，不是会员运营——别骗自己。",
+    risk:"红灯阶段你前半年做的是数据基建，不是会员运营——这半年得提前写进预算，不然到时候账面和耐心一起崩。",
     peer:"发给那个「我觉得」「我感觉」挂嘴边的高管，他会沉默。",
     plan:["先解决「拿得到数」：打通系统断点，让复购率不用等三天。","立数据字典统一口径，否则每次开会先吵半小时定义。","经营会改成「数据开场」——逼自己从第六感切换到看数据。"] },
   bottleneck:{
@@ -1620,7 +1997,7 @@ const ARCHETYPES = {
     plan:["从最痛的一个管理环节开始正规化：加盟管控 / 培训考核 / 经营数据，只选一个先搞。","写一份最简版的权责清单——谁管什么、边界在哪、争议找谁，不用完美，有就比没有强。","趁产品和品牌还在窗口期，赶紧把管理底盘搭起来——全国品牌不是草台班子能长出来的。"] },
   platform_tenant:{
     name:"平台打工人", en:"THE PLATFORM WORKER", tier:"amber", rarity:19,
-    review:"你以为你是老板，其实你在给美团/饿了么打工。",
+    review:"营业执照印的是你的名字，客流的开关攥在美团手里。",
     desc:"营收命根子系在平台手里，手里又没有可触达的客户资产。平台调一下流量权重你就失眠，涨一点佣金利润就蒸发。你不是在经营品牌，你是在经营平台上的一个 SKU——最残酷的是：你的「老客」其实是平台的老客，他们认的是平台不是你。但好消息是，把客户从平台一点点搬进自己池子，是门技术活、不是玄学——每天多留 10 个老客，一年后你就不再给平台打工了。",
     risk:"平台的利润空间，就是你利润的天花板。你越依赖它，它越有权定你的价。",
     peer:"发给那个每天第一件事是刷美团后台排名的同行——他会沉默很久。",
@@ -1716,9 +2093,19 @@ const TIERS = [
     desc:"根基已经报警。先保命、再谈增长，会员运营要往后排。" },
 ];
 
+/* 转诊单 CTA：按红黄绿灯档位给一句裂变引导。 */
+const REFERRAL_CTA = {
+  green:"转给一个你看不惯的同行——长按识别，让他也来照照镜子",
+  amber:"建议同桌就诊：长按识别，看看你那位合伙人是哪型老板",
+  red:"18 种老板人格已全部建档——长按识别，领你自己的那份病历",
+};
+
+/* 门店规模档位标签（测前自选）。 */
+const STAGE_LABELS = { s1:"1–5 家", s2:"6–30 家", s3:"31–100 家", s4:"100+ 家" };
+
 /* 杀手级问题（结果页 callout，按最弱维度取一条）。 */
 const KILLER_Q = {
-  founder:"「一年后你觉得这件事没做成，最可能的原因是什么？」",
+  founder:"「一年后要是数字化这件事没做成，最可能的原因会是什么？」—— 答案里有没有你自己。",
   org:"「过去一年，公司花钱最多的三件事是什么？」—— 别听钱怎么说，看钱怎么花。",
   team:"「我出差一周，谁能替我把一个项目从头扛到尾？」",
   data:"「我们到底有没有一份数据字典？」",
@@ -1738,16 +2125,87 @@ const KILLER_Q = {
   experience:"「上一条挂在首页的差评，你们用了多久处理完？谁手里有这个时效数据？」",
 };
 
+/* 规模注解：按用户自选门店规模档（s1-s4），给「最弱肌肉群」或「命中特例人格」
+   配一条"按你的规模说句实话"。byArch 命中时优先于 byCluster。
+   s1/s2 = 正名 + 预警线；s3/s4 = 病情升级判词。 */
+const STAGE_NOTES = {
+  byCluster:{
+    "人":{
+      s1:"1–5 家店老板就是全公司的大脑，这不叫病，叫创业。但第 5 家店起就得物色那个「二传手」——拖到第 10 家再找，好苗子早被日常琐事磨没了。",
+      s2:"6–30 家店是从「带兄弟」换挡到「带组织」的窗口——10 家店靠人盯人还行，过了 15 家还没有店长梯队，每开一家新店都在抽空老店的骨干。",
+      s3:"31–100 家的组织病不再是累，是失真——信息每过一层就转述一次，你看到的门店已经是二手版本。这个规模没有靠谱的中层，等于拿 5 家店的脑子指挥 50 家店的身体。",
+      s4:"百店规模还事必躬亲，不是敬业，是组织事故——你每天拍的板，八成本该消失在制度里，剩下两成才轮得到你。",
+    },
+    "大脑":{
+      s1:"5 家店以内靠老板每天巡店看数，反应比任何看板都快——这阶段不缺系统，缺的是从第一天起把会员和流水沉在自己系统里，别全寄存在平台账上。",
+      s2:"6–30 家店是数据口径的定型期——10 家店换系统是小手术，拖到 50 家就是给几十家店同时做手术。这个阶段至少把 POS 和会员打通，口径全公司钉死一套。",
+      s3:"31–100 家还要等三天才看到复购率，问题已经不是慢，是错——三天前的数据指挥今天的促销，区域一多，你拍的每个板都建立在过期情报上。",
+      s4:"100+ 家店，数据和系统已经不是后台部门，是中枢神经——这个体量一次系统切换排期一年起步，会员账没打通，几百万会员资产就躺在各个系统里互不相认。",
+    },
+    "手脚":{
+      s1:"1–5 家店靠老板巡店管执行，比任何制度都好使，这不算短板。预警线在第 5 家店：你一周巡不完一圈的那天，就得开始搭「培训 + 检查」的最简闭环了。",
+      s2:"6–30 家是 SOP 的最后温柔期——15 家店以内，培训考核补课还来得及；过了 20 家还靠店长自觉，每开一家新店都是开盲盒。",
+      s3:"31–100 家的执行衰减是乘法不是减法——指令每过一层打个九折，落到一线只剩七八成。这个规模还没有「已读 + 考核」闭环，发文跟发朋友圈区别不大。",
+      s4:"100+ 家还靠微信群推政策，问题已经不在执行率，在食安和合规——百店连锁随便一家店出事，上的是热搜不是周报，硬约束这一课这个体量没得选。",
+    },
+    "根基":{
+      s1:"1–5 家店产品就是全部家当，不用谈什么品牌矩阵——但有一条硬线：招牌菜得有一句顾客替你说的介绍词。这句话说不出来，先别急着开第 6 家。",
+      s2:"6–30 家是味道一致性的生死线——5 家店靠老师傅盯得住，过了 10 家还没把核心 SKU 标准化，每开一家新店都在稀释你最值钱的那口味道。",
+      s3:"31–100 家的根基病会换个名字出现：单店时叫「口味不稳」，这个规模叫「区域口碑塌方」——一座城市的差评潮，能把整个省的拓展计划按停半年。",
+      s4:"100+ 家的品牌势能不是营销问题，是资产负债表问题——这个体量停投就掉客，等于几个亿的门店资产架在租来的流量上，对手不用打你，等你投流预算先见底就行。",
+    },
+    "钱":{
+      s1:"1–5 家店账目糊一点没人怪你，老板兜里就是公司金库——但第 2 家店起必须算清楚单店回本周期，这是你以后所有扩张决策的唯一底牌。",
+      s2:"6–30 家店是单店模型最后的验证窗口——这个阶段算不清回本周期，到 50 家就不是算不清了，是不敢算。",
+      s3:"31–100 家还算不清单店账，不是财务问题，是开店决策在裸奔——这个规模总有一批店在悄悄亏钱，被新店的现金流盖着，扩张一停就现形。",
+      s4:"100+ 家的财务短板会被资本放大——对赌、银行授信、加盟商维权，哪条都比经营本身凶。这个体量加盟商回本拖过 24 个月，招商见顶只是时间问题。",
+    },
+  },
+  byArch:{
+    lone_wolf:{
+      s1:"5 家店以内公司就一个 CPU，是创业常态不是病——真正的预警线在第 5 到第 10 家之间：还没有一个能独立扛项目的人，再扩张就是给自己加班。",
+      s2:"6–30 家是二传手的最后培养窗口——这个规模还亲自盯每家新店，等于把扩张上限亲手锁在 30 家：你一天只有 24 小时，这道数学题绕不过去。",
+      s3:"31–100 家还是你一个人发球，团队接不住已经不是能力问题，是长期没机会练——判断标准锁在你脑子里没落成制度，区域经理就只能当传声筒。",
+      s4:"百店连锁还系在创始人一个人身上，投资人管这叫单点风险，估值要打折的——判断力再强，没变成制度就只是个人手艺，不算公司资产。",
+    },
+    bottleneck:{
+      s1:"1–5 家店事事你拍板，不是瓶颈，是这个规模最快的决策方式。预警信号也很具体：第一次有店长因为「等老板回话」错过一档平台活动，就是该分权的那天。",
+      s2:"6–30 家店还在排队等你拍板，你的日程表就是公司产能的上限——这个阶段至少把万元以下的决策切出去，否则 30 家就是天花板，还是你自己焊死的。",
+      s3:"31–100 家只有一个大脑，决策延迟会变成区域失血——竞品在某个城市发起进攻，等你出完差开完会，窗口已经关了。这个规模拼的是分布式决策，不是老板英明。",
+      s4:"100+ 家还万事等你拍板，公司就没有管理层，只有一群高级传令兵——这个体量你休一周假业务就发抖，资本市场管这叫关键人风险，是要写进风险披露的。",
+    },
+    blackhole:{
+      s1:"5 家店用 Excel 不丢人——这个规模急着上中台才是病。但第 30 家店之前必须有一份全公司认账的数据字典，否则后面每开一家店都在制造一套新口径。",
+      s2:"6–30 家是数据基建的黄金窗口——10 家店打通系统是小工程，拖到 50 家就是边开飞机边换引擎。这个阶段的及格线：复购率当天能看，口径全公司只有一套。",
+      s3:"31–100 家还拿不到数，已经不是效率问题，是治理问题——几十家店的进销存和会员账对不上，督导汇报全靠嘴，你管理的是一家「传闻中的公司」。",
+      s4:"100+ 家的数据黑洞是资本级缺陷——尽调第一件事就是拉数，口径打架的百店连锁，估值先砍一刀再谈别的。这个体量数据中台不是升级项，是入场券。",
+    },
+    circus:{
+      s1:"1–5 家店管理糙点没事，产品好就是最好的管理，别急着上流程上系统。预警线在第 5 家店：出了问题开始找不到该问谁，就该写最简版权责清单了。",
+      s2:"6–30 家是草台班子的免费试用期——10 家店以内微信群还兜得住，过了 15 家，加盟管控和培训考核至少得正规化一个：好产品扛得住差评，扛不住三次品控事故。",
+      s3:"31–100 家手里的好牌正被散装管理一张张倒贴出去——这个规模品控翻车不再是一家店的事，一条爆款差评视频，就够让整个品牌替那家店买单。",
+      s4:"100+ 家还是草台班子，不是风格问题，是事故概率问题——百店体量每天几万笔订单，食安、客诉、加盟纠纷总会轮上，没有制度兜底，每一次都按品牌级爆炸算。",
+    },
+    brokenphone:{
+      s1:"1–5 家店基本不存在「政策传不下去」——你吼一嗓子全店都听得见。这个规模指令还落不了地，问题多半不在机制，在店长人选，先看人再搭流程。",
+      s2:"6–30 家是「已读不回」的高发期——10 家店以内走样靠巡店能纠，过了 15 家还没有培训考核闭环，总部每个动作都在玩传话游戏，传到一线只剩标题。",
+      s3:"31–100 家政策还传不下去，总部等于在自费办内刊——这个规模该有的硬抓手（评级、保证金、采购绑定）至少得有一个，光靠区域经理带话，到店全是噪音。",
+      s4:"100+ 家的传达断层是系统性风险——一次全国性合规要求没传到位，罚单和热搜会替你验收执行率。这个体量，「发文 + 自觉」早该换成「系统派单 + 考核兜底」。",
+    },
+  },
+};
+
 </script>
 <script>
 /* ========================================================================
-   11 维雷达图  —  生成 SVG 字符串
+   雷达图（轴数 = radar:true 的维度数，当前 13）  —  生成 SVG 字符串
    scores: { key: 0-100 }  ·  dims: 过滤出 radar:true 的维度
+   注意：本文件语法基线锁 ES6（老 X5/iOS12 内核），禁用 ?? 等新语法
    ===================================================================== */
 
 function buildRadar(scores){
   const dims = DIMENSIONS.filter(d=>d.radar);
-  const N = dims.length;                 // 11
+  const N = dims.length;                 // 13
   const VB = 360;                        // viewBox
   const cx = VB/2, cy = VB/2 + 6;
   const R = 118;                          // outer radius
@@ -1758,7 +2216,7 @@ function buildRadar(scores){
   const angleAt = i => (-90 + i*360/N) * Math.PI/180;
   const ptAt = (i, r) => [ cx + r*Math.cos(angleAt(i)), cy + r*Math.sin(angleAt(i)) ];
 
-  let svg = `<svg viewBox="0 0 ${VB} ${VB}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="11 维度雷达图">`;
+  let svg = `<svg viewBox="0 0 ${VB} ${VB}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${N} 维度品牌健康雷达图">`;
 
   // grid rings
   const rings = [0.25,0.5,0.75,1.0];
@@ -1775,14 +2233,14 @@ function buildRadar(scores){
 
   // data polygon
   const dataPts = dims.map((d,i)=>{
-    const v = Math.max(0, Math.min(100, scores[d.key] ?? 0));
+    const v = Math.max(0, Math.min(100, scores[d.key] || 0));
     return ptAt(i, R * (v/100)).map(n=>n.toFixed(1)).join(",");
   }).join(" ");
   svg += `<polygon points="${dataPts}" fill="${ACCENT}" fill-opacity="0.18" stroke="${ACCENT}" stroke-width="2.5" stroke-linejoin="round"/>`;
 
   // vertices
   dims.forEach((d,i)=>{
-    const v = Math.max(0, Math.min(100, scores[d.key] ?? 0));
+    const v = Math.max(0, Math.min(100, scores[d.key] || 0));
     const [x,y] = ptAt(i, R * (v/100));
     svg += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="3.4" fill="#fff" stroke="${ACCENT}" stroke-width="2"/>`;
   });
@@ -1795,7 +2253,7 @@ function buildRadar(scores){
     if (Math.cos(a) > 0.25) anchor = "start";
     else if (Math.cos(a) < -0.25) anchor = "end";
     const dy = Math.sin(a) > 0.4 ? 12 : (Math.sin(a) < -0.4 ? -4 : 4);
-    const v = Math.round(scores[d.key] ?? 0);
+    const v = Math.round(scores[d.key] || 0);
     svg += `<text x="${lx.toFixed(1)}" y="${(ly+dy).toFixed(1)}" text-anchor="${anchor}" `+
            `font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" `+
            `font-size="14" font-weight="700" fill="#374151">${d.short}</text>`;
@@ -1810,12 +2268,17 @@ function buildRadar(scores){
 </script>
 <script>
 /* ========================================================================
-   餐饮 · 零售品牌体检 — 主逻辑  v8
-   v3: 分章随机 · 选项乱序 · 章间过渡 · 报告重构（分享卡优先）
+   餐饮 · 零售品牌体检 — 主逻辑  v9
    v8: lone_wolf优先级提前 · cross去重(wanghong跳brand_prod) · 覆盖度档位修正
+   v9: 连点推进锁 · hexagon档位真空修复 · icu对齐TIERS · CROSS_SKIP全表去重
+       · 微信保存改长按蒙层 · 复制带链接+execCommand兜底 · 规模段位透镜
+       · 转诊单二维码 · 章节过渡只播一次 · 每题回滚顶
+   语法基线锁 ES5+Promise（老 X5/iOS12 内核），禁用 ??/?./finally
    ===================================================================== */
 
-const STATE = { idx:0, answers:{}, order:[], chapterIdx:-1 };
+const STATE = { idx:0, answers:{}, order:[], chapterIdx:-1,
+                seenCh:{}, stage:null, _adv:null,
+                _peerPayload:"", _peerToast:"", _sharePayload:"" };
 
 const $  = (s, r=document) => r.querySelector(s);
 const $$ = (s, r=document) => [...r.querySelectorAll(s)];
@@ -1855,19 +2318,27 @@ function buildQuizOrder(){
 
 /* ===== INTRO ============================================================ */
 function buildIntro(){
-  $("#dim-grid").innerHTML = DIMENSIONS.filter(function(d){return d.group!=="bonus";}).map(function(d){
-    return '<div class="dim-pill"><span class="n">'+d.id+'</span><span>'+d.name.split("·")[0].split("·")[0]+'</span></div>';
-  }).join("");
+  /* 封面只展示 5 个代表维度 + 「…等 18 维」尾巴：
+     既消掉「宣称 18 维却只列 13 个」的矛盾，又把 CTA 拉回小屏首屏 */
+  var pills = DIMENSIONS.filter(function(d){return d.group!=="bonus";}).slice(0,5)
+    .map(function(d){
+      return '<div class="dim-pill"><span class="n">'+d.id+'</span><span>'+d.name.split("·")[0]+'</span></div>';
+    });
+  pills.push('<div class="dim-pill"><span class="n">+</span><span>…等 18 个维度</span></div>');
+  $("#dim-grid").innerHTML = pills.join("");
 }
 
 /* ===== QUIZ ============================================================= */
 function renderQuestion(){
   var entry = STATE.order[STATE.idx];
 
-  /* chapter break detection — skip chapter 0 (intro handles it) */
+  /* chapter break detection — 只在首次到达该章时播过渡屏（回退再前进不重播），
+     chapter 0 由封面承担引入 */
   if(entry._chapter !== STATE.chapterIdx){
+    var firstVisit = !STATE.seenCh[entry._chapter];
     STATE.chapterIdx = entry._chapter;
-    if(entry._chapter > 0){
+    if(entry._chapter > 0 && firstVisit){
+      STATE.seenCh[entry._chapter] = 1;
       showChapterBreak(entry._chapter);
       return;
     }
@@ -1899,12 +2370,23 @@ function renderQuestion(){
 
   $$(".option", opts).forEach(function(btn){
     btn.addEventListener("click", function(){
+      /* 推进锁：230ms 窗口内的二次点击只换选择、不再排队 next()，
+         否则连点会静默跳过下一题，被跳维度按 0 分计入（v9 修复） */
       STATE.answers[STATE.idx] = Number(btn.dataset.score);
       $$(".option", opts).forEach(function(b){b.classList.remove("selected");});
       btn.classList.add("selected");
-      setTimeout(next, 230);
+      if (STATE._adv) return;
+      STATE._adv = setTimeout(function(){ STATE._adv = null; next(); }, 230);
     });
   });
+
+  /* 长题答完自动跳下一题时，把滚动位置拉回题干（小屏机型每题都会滚） */
+  window.scrollTo(0,0);
+  $("#app").scrollTop = 0;
+}
+
+function cancelAdvance(){
+  if (STATE._adv){ clearTimeout(STATE._adv); STATE._adv = null; }
 }
 
 /* ===== CHAPTER TRANSITIONS ============================================= */
@@ -1942,6 +2424,7 @@ function next(){
   else { $("#progress-fill").style.width = "100%"; runComputing(); }
 }
 function back(){
+  cancelAdvance();
   if(STATE.idx>0){
     STATE.idx--;
     STATE.chapterIdx = STATE.order[STATE.idx]._chapter;
@@ -1955,7 +2438,7 @@ function runComputing(){
   show("computing");
   var lines = [
     "正在统计你交的智商税…",
-    "正在给你的现金流量体温…",
+    "正在给你的现金流测体温…",
     "正在偷看你的后台数据…",
     "正在跟你前任运营总监对账…",
     "正在掐指算你的回本周期…",
@@ -1972,24 +2455,33 @@ function runComputing(){
 
 /* ===== SCORING ========================================================== */
 function computeScores(){
-  var byKey = {};
+  var byKey = {}, answered = 0;
   STATE.order.forEach(function(entry,i){
     var v = STATE.answers[i];
     if(v==null) return;
+    answered++;
     (byKey[entry.key] = byKey[entry.key] || []).push(v);
   });
+  /* v9：无答案的维度不再按 0 分兜底——0 分会拉低总分并制造用户没见过的假红灯。
+     正常流程 24 题必答满；这里是对任何跳题路径的防御。 */
   var scores = {};
   DIMENSIONS.forEach(function(d){
-    var arr = byKey[d.key] || [0];
-    scores[d.key] = Math.round(arr.reduce(function(a,b){return a+b;},0)/arr.length);
+    var arr = byKey[d.key];
+    if(arr && arr.length){
+      scores[d.key] = Math.round(arr.reduce(function(a,b){return a+b;},0)/arr.length);
+    }
   });
 
   var wSum=0, wTot=0;
-  DIMENSIONS.forEach(function(d){ wSum += scores[d.key]*d.weight; wTot += d.weight; });
-  var overall = Math.round(wSum/wTot);
+  DIMENSIONS.forEach(function(d){
+    if(scores[d.key]==null) return;
+    wSum += scores[d.key]*d.weight; wTot += d.weight;
+  });
+  var overall = wTot ? Math.round(wSum/wTot) : 0;
 
   var cl = {};
   DIMENSIONS.forEach(function(d){
+    if(scores[d.key]==null) return;
     (cl[d.cluster] = cl[d.cluster] || {s:0,w:0});
     cl[d.cluster].s += scores[d.key]*d.weight;
     cl[d.cluster].w += d.weight;
@@ -2006,7 +2498,7 @@ function computeScores(){
   });
   var coverage = Math.round(cNum/cDen*100);
 
-  return { scores:scores, overall:overall, clusterAvg:clusterAvg, coverage:coverage };
+  return { scores:scores, overall:overall, clusterAvg:clusterAvg, coverage:coverage, answered:answered };
 }
 
 /* combo decision tree → 18 archetypes (v3: cross-logic combos) */
@@ -2016,7 +2508,8 @@ function pickArchetype(o, ca, s){
   var redClusters = vals.filter(function(v){return v<42;}).length;
 
   if (o>=85 && minC>=68) return "winner";
-  if (o<35 || redClusters>=3) return "icu";
+  /* v9: 阈值 35→40 对齐 TIERS 红灯线（<40=红灯·ICU），消掉「红灯灯牌配 amber 人格」的口径打架 */
+  if (o<40 || redClusters>=3) return "icu";
 
   /* v8: lone_wolf 提前——创始人强+团队弱是更根本的诊断，不应被 wanghong 遮蔽 */
   if (s.founder>=68 && s.team<=45) return "lone_wolf";
@@ -2036,7 +2529,9 @@ function pickArchetype(o, ca, s){
     return map[weakest] || "lukewarm";
   }
 
-  if (o>=70 && minC>=62) return "hexagon";
+  /* v9: 去掉 minC>=62 门槛——走到这里 minC 必然 ≥52，原写法在 minC∈[52,62) 留了档位真空，
+     90 分老板会掉进「温水青蛙」，与绿灯灯牌同卡自相矛盾 */
+  if (o>=70) return "hexagon";
   return "lukewarm";
 }
 
@@ -2044,10 +2539,21 @@ function tierFor(o){ return TIERS.find(function(t){return o>=t.min;}); }
 function bandFor(v){ return v>=70 ? "green" : (v>=42 ? "amber" : "red"); }
 var BAND_COLOR = { green:"#1f9d63", amber:"#e0900c", red:"#e0301a" };
 
-/* v8: archKey 传入，wanghong 时跳过 brand_prod（与人格文案重复） */
+/* v9: 人格 ↔ cross 撞文案全表去重（v8 只修了 wanghong 一例）。
+   左边人格命中时跳过右边 cross——两者触发条件蕴含/相同，文案必然同屏复读。 */
+var CROSS_SKIP = {
+  wanghong:"brand_prod",        /* 条件重叠：品牌高·产品低 */
+  bulldozer:"control_data",     /* 条件逐字相同 */
+  handcraft:"prod_data",        /* prod_data ⊇ handcraft */
+  lone_wolf:"founder_team",     /* founder_team ⊇ lone_wolf */
+  platform_tenant:"channel_crm",/* 条件几乎相同 */
+  silent_earner:"finance_brand",/* 「隐形冠军」复读 */
+  circus:"prod_org",            /* 「草台班子」复读 */
+  armchair:"data_exec",         /* 「最憋屈」复读 */
+};
 function pickCross(s, archKey){
   return CROSS.filter(function(c){
-    if(archKey==="wanghong" && c.id==="brand_prod") return false;
+    if(CROSS_SKIP[archKey]===c.id) return false;
     return c.test(s);
   }).sort(function(a,b){return b.sev(s)-a.sev(s);}).slice(0,3);
 }
@@ -2070,7 +2576,8 @@ function computeAndShowResult(){
   $("#r-arch-en").textContent = arch.en;
   $("#r-punch").textContent = arch.review;
   $("#r-hero-ghost").textContent = overall;
-  $("#r-rarity").textContent = "稀有度 " + arch.rarity + "%";
+  /* 免责焊死在徽章本体上：截图截到哪、「图个乐」跟到哪，不再依赖页尾免责 */
+  $("#r-rarity").innerHTML = "稀有度 " + arch.rarity + "%<i>图个乐</i>";
   $$("[data-arch-inline]").forEach(function(el){el.textContent = arch.name;});
 
   /* gauge */
@@ -2084,12 +2591,13 @@ function computeAndShowResult(){
   $("#r-tier-label-text").textContent = tier.label;
   $("#r-tier-desc").textContent = tier.desc;
 
-  /* 证据强度 badge：诚实标注「这是自评、不是审计」 */
+  /* 证据强度 badge：诚实标注「这是自评、不是审计」。
+     v9: 不再展示覆盖度百分比——公式硬上限 69%（12 个单题维度到不了 2 题满权），
+     「覆盖度 69%」会被读成「有题没答完」，档位判断保留、对外只说题数。 */
   var cov = r.coverage;
-  /* v8: 满答覆盖度 69%，阈值对齐让全答拿到"高"(≥69)、少答几题仍"中"(≥50) */
   var covBand = cov>=69 ? "高" : (cov>=50 ? "中" : "中低");
   var cf = $("#r-confidence");
-  if(cf){ cf.textContent = "证据强度 " + covBand + " · 基于自评，覆盖度 " + cov + "%"; }
+  if(cf){ cf.textContent = "证据强度 " + covBand + " · " + r.answered + " 题自评"; }
 
   /* compact muscle groups (5 colored chips) */
   $("#r-muscles").innerHTML = CLUSTERS.map(function(c){
@@ -2107,16 +2615,58 @@ function computeAndShowResult(){
   /* peer quote (毒舌黑卡 — in share card) */
   $("#r-peer-line").textContent = arch.peer;
 
-  /* share text for copy */
+  /* v9: 复制按钮不再复制「转发指令」本身（贴进群里语义不通），
+     改组装可直接投放的成稿：人格毒舌 + 回流链接。icu 人格特判消掉
+     「复制一句『别发群里』然后让人去投放」的自相矛盾。 */
+  var URL_ = TWEAKS.shareUrl || "";
+  var peerBtn = $("#btn-copy-peer");
+  if (archKey === "icu"){
+    STATE._peerPayload = "「现在谈会员运营，等于给 ICU 病人做医美。」先救现金流——" + URL_;
+    STATE._peerToast = "已复制。先留着，救完现金流再说";
+    if(peerBtn) peerBtn.textContent = "先别投放，复制给自己留着";
+  } else {
+    STATE._peerPayload = "「" + arch.review + "」——刚做了个餐饮老板体检，看到这型莫名想到你。敢测吗：" + URL_;
+    STATE._peerToast = "毒舌已复制，去同行群投放吧";
+    if(peerBtn) peerBtn.textContent = "复制这句毒舌";
+  }
+
+  /* share text：页面展示短句，复制走「人格 + 稀有度 + 毒舌 + 链接」长版 */
   var shareText = "我测出来是「" + arch.name + "」型老板，你呢？";
   $("#r-share-text").textContent = shareText;
+  STATE._sharePayload = "我测出来是「" + arch.name + "」型老板，稀有度 " + arch.rarity +
+    "%——「" + arch.review + "」不服？4 分钟测你自己的：" + URL_;
+
+  /* 转诊单 CTA（按灯色三档）+ 截图页脚由 CSS 在 capturing 态显示 */
+  var rrCta = $("#rr-cta");
+  if(rrCta && typeof REFERRAL_CTA !== "undefined"){
+    rrCta.textContent = REFERRAL_CTA[tier.light] || REFERRAL_CTA.amber;
+  }
+
+  /* 规模段位透镜：选了门店数才渲染，byArch 特例优先、否则按最弱肌肉群 */
+  var stEl = $("#r-stage");
+  if(stEl){
+    if(STATE.stage && typeof STAGE_NOTES !== "undefined"){
+      var wc=null, wm=Infinity;
+      Object.keys(clusterAvg).forEach(function(c){ if(clusterAvg[c]<wm){ wm=clusterAvg[c]; wc=c; } });
+      var ba = STAGE_NOTES.byArch[archKey];
+      var note = (ba && ba[STATE.stage]) || (wc && STAGE_NOTES.byCluster[wc] && STAGE_NOTES.byCluster[wc][STATE.stage]);
+      if(note){
+        $("#r-stage-note").textContent = note;
+        var lblEl = $("#r-stage-lbl");
+        if(lblEl && typeof STAGE_LABELS !== "undefined"){
+          lblEl.textContent = "— 按你的规模（" + STAGE_LABELS[STATE.stage] + "）· 说句实话 —";
+        }
+        stEl.style.display = "";
+      } else { stEl.style.display = "none"; }
+    } else { stEl.style.display = "none"; }
+  }
 
   /* ---- LAYER 2: KEY INSIGHTS (below fold) ---- */
 
   /* merge cross signals + red alerts into one list, max 4 */
   var cross = pickCross(scores, archKey);
   var danger = DIMENSIONS.map(function(d){return {d:d, v:scores[d.key]};})
-    .filter(function(x){return x.v<42;}).sort(function(a,b){return a.v-b.v;}).slice(0,2);
+    .filter(function(x){return x.v!=null && x.v<42;}).sort(function(a,b){return a.v-b.v;}).slice(0,2);
 
   var insights = [];
   cross.forEach(function(c){ insights.push({ type:"cross", html:c.text(scores) }); });
@@ -2158,8 +2708,8 @@ function computeAndShowResult(){
 
   /* killer question（按最弱维度给一条灵魂拷问） */
   var weakestDim=null, mv=Infinity;
-  DIMENSIONS.forEach(function(d){ if(scores[d.key]<mv){ mv=scores[d.key]; weakestDim=d; } });
-  $("#r-killer-q").textContent = KILLER_Q[weakestDim.key];
+  DIMENSIONS.forEach(function(d){ var sv=scores[d.key]; if(sv!=null && sv<mv){ mv=sv; weakestDim=d; } });
+  if(weakestDim){ $("#r-killer-q").textContent = KILLER_Q[weakestDim.key]; }
 
   /* action plan */
   $("#r-plan").innerHTML = arch.plan.map(function(step,i){
@@ -2174,7 +2724,7 @@ function computeAndShowResult(){
   ];
   $("#r-breakdown").innerHTML = groups.map(function(g){
     var rows = g.list.map(function(d){
-      var v = scores[d.key], band = bandFor(v), col = BAND_COLOR[band], copy = DIM_COPY[d.key][band];
+      var v = scores[d.key]==null ? 0 : scores[d.key], band = bandFor(v), col = BAND_COLOR[band], copy = DIM_COPY[d.key][band];
       return '<div class="bd-item">' +
         '<div class="bd-top">' +
           '<span class="n">'+d.id+'</span>' +
@@ -2214,22 +2764,71 @@ function toast(msg){
   var t = $("#toast"); t.textContent = msg; t.classList.add("show");
   clearTimeout(t._t); t._t = setTimeout(function(){t.classList.remove("show");}, 2200);
 }
+
+/* v9: 统一复制函数。微信安卓 X5 上 navigator.clipboard 大概率不可用，
+   降级走 execCommand 临时 textarea（老内核实测可用），两层都失败才认输。 */
+function copyText(txt, okMsg){
+  function fallback(){
+    var ta = document.createElement("textarea");
+    ta.value = txt;
+    ta.setAttribute("readonly","");
+    ta.style.cssText = "position:fixed;top:-200px;left:0;opacity:0;";
+    document.body.appendChild(ta);
+    ta.select();
+    try{ ta.setSelectionRange(0, txt.length); }catch(e){}
+    var ok = false;
+    try{ ok = document.execCommand("copy"); }catch(e){}
+    document.body.removeChild(ta);
+    if(ok){ toast(okMsg); } else { toast("复制不了？直接截屏发图，一样管用"); }
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){ toast(okMsg); }).catch(fallback);
+  } else { fallback(); }
+}
+
+/* v9: 保存长图重写。
+   旧版 a.download + dataURL 在微信 iOS/Android 里静默失败还谎报成功（主渠道哑弹）。
+   现在：截紧凑分享卡 #share-card（capturing 态自动带上「署名+二维码」页脚），
+   移动端弹全屏蒙层让用户长按保存/转发（微信原生菜单），桌面端保留下载。 */
+function isMobileUA(){
+  return /MicroMessenger|iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+}
 function saveImage(){
-  if (typeof html2canvas === "undefined"){ toast("长按页面截图即可保存分享"); return; }
-  var btnRow = $("#r-actions"), app = $("#app");
-  toast("正在生成长图…");
-  btnRow.style.visibility = "hidden"; app.classList.add("capturing");
-  html2canvas($("#screen-result"), { backgroundColor:"#ffffff", scale:2, useCORS:true, logging:false })
-    .then(function(canvas){
-      var a = document.createElement("a");
-      a.href = canvas.toDataURL("image/png"); a.download = "餐饮品牌体检报告.png"; a.click();
-      toast("已生成，可保存或转发");
-    })
-    .catch(function(e){ console.warn(e); toast("长按页面截图即可保存分享"); })
-    .finally(function(){ btnRow.style.visibility = ""; app.classList.remove("capturing"); });
+  if (typeof html2canvas === "undefined"){ toast("可以直接截屏保存这一页"); return; }
+  var app = $("#app");
+  var target = $("#share-card") || $("#screen-result");
+  toast("正在生成分享卡…");
+  window.scrollTo(0,0);            /* html2canvas 在 iOS 对滚动中的页面会整体偏移 */
+  app.classList.add("capturing");
+  setTimeout(function(){           /* 等一帧，让 capture-foot 完成显示再截 */
+    html2canvas(target, { backgroundColor:"#ffffff", scale:2, useCORS:true, logging:false })
+      .then(function(canvas){
+        var url = canvas.toDataURL("image/png");
+        if (isMobileUA()){
+          var ov = document.createElement("div");
+          ov.id = "save-overlay";
+          ov.innerHTML = '<img src="' + url + '" alt="体检报告分享卡">' +
+            '<div class="so-tip">长按图片 → 保存到相册，或直接发给朋友</div>' +
+            '<button class="so-close">关闭</button>';
+          ov.querySelector(".so-close").addEventListener("click", function(){
+            document.body.removeChild(ov);
+          });
+          document.body.appendChild(ov);
+        } else {
+          var a = document.createElement("a");
+          a.href = url; a.download = "餐饮品牌体检报告.png";
+          document.body.appendChild(a); a.click(); document.body.removeChild(a);
+          toast("已保存到下载目录");
+        }
+      })
+      .catch(function(e){ console.warn(e); toast("生成失败——直接截屏这一页也一样"); })
+      .then(function(){ app.classList.remove("capturing"); });  /* 代替 .finally（老内核没有） */
+  }, 60);
 }
 function restart(){
-  STATE.idx=0; STATE.answers={}; STATE.chapterIdx=-1;
+  cancelAdvance();
+  STATE.idx=0; STATE.answers={}; STATE.chapterIdx=-1; STATE.seenCh={};
+  /* STATE.stage 不清：同一个老板重测，门店规模不会变 */
   STATE.order = buildQuizOrder();
   renderQuestion();
   show("intro");
@@ -2246,18 +2845,41 @@ function init(){
   $("#btn-save").addEventListener("click", saveImage);
   $("#btn-restart").addEventListener("click", restart);
   $("#btn-expand").addEventListener("click", toggleBreakdown);
+
+  /* v9: 复制走统一 copyText（clipboard → execCommand 兜底），
+     payload 在 computeAndShowResult 里按人格组装、自带回流链接 */
   $("#btn-copy-peer").addEventListener("click", function(){
-    var txt = $("#r-peer-line").textContent;
-    if (navigator.clipboard && navigator.clipboard.writeText){
-      navigator.clipboard.writeText(txt).then(function(){toast("毒舌已复制，去同行群投放吧");}).catch(function(){toast("长按上面那句手动复制");});
-    } else { toast("长按上面那句手动复制"); }
+    copyText(STATE._peerPayload || $("#r-peer-line").textContent, STATE._peerToast || "已复制");
   });
   $("#btn-copy-share").addEventListener("click", function(){
-    var txt = $("#r-share-text").textContent;
-    if (navigator.clipboard && navigator.clipboard.writeText){
-      navigator.clipboard.writeText(txt).then(function(){toast("已复制，发给你的老板朋友吧");}).catch(function(){toast("长按复制");});
-    } else { toast("长按复制"); }
+    copyText(STATE._sharePayload || $("#r-share-text").textContent, "已复制，发给你的老板朋友吧");
   });
+
+  /* v9: 规模段位（可选，不选不渲染结果页注解） */
+  $$(".schip").forEach(function(b){
+    b.addEventListener("click", function(){
+      if (STATE.stage === b.dataset.stage){
+        b.classList.remove("selected"); STATE.stage = null; return;   /* 再点一次=取消 */
+      }
+      $$(".schip").forEach(function(x){ x.classList.remove("selected"); });
+      b.classList.add("selected");
+      STATE.stage = b.dataset.stage;
+    });
+  });
+
+  /* v9: 引流位（可配置占位）——TWEAKS.contactWechat 配了才显示整块 */
+  var rc = $("#r-contact");
+  if (rc && typeof TWEAKS !== "undefined" && TWEAKS.contactWechat){
+    $("#rc-wechat").textContent = TWEAKS.contactWechat;
+    if (TWEAKS.contactQr){
+      var rq = $("#rc-qr"); rq.src = TWEAKS.contactQr; rq.style.display = "";
+    }
+    $("#btn-copy-wechat").addEventListener("click", function(){
+      copyText(TWEAKS.contactWechat, "微信号已复制");
+    });
+    rc.style.display = "";
+  }
+
   show("intro");
 }
 document.addEventListener("DOMContentLoaded", init);
